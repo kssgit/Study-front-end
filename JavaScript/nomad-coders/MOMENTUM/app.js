@@ -32,3 +32,22 @@ daysOfWeek.push("sun");
 
 console.log(daysOfWeek)
 
+//Object 
+const playerName = "nico";
+const playerPoints = 12123213;
+const playerHandsome = false;
+
+const player ={
+    name : "nico",
+    points : 10,
+    fat : true,
+}
+
+console.log(player);
+console.log(player.name);
+console.log(player["points"]);
+player.points = 11; //const로 선언된 Object의 변수는 변경 가능 
+console.log(player["points"]); // 하지만 player의 값을 바꾸는 건 불가능 player = 10 - > X 
+player.lastName = "potato";
+console.log(player); //변수 추가 가능
+
