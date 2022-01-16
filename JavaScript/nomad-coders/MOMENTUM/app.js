@@ -51,3 +51,8 @@ console.log(player["points"]); // 하지만 player의 값을 바꾸는 건 불�
 player.lastName = "potato";
 console.log(player); //변수 추가 가능
 
+//function
+
+function sayHello(name){
+    console.log("Hello my name is "+name);
+}
